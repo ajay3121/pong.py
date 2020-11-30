@@ -1,5 +1,9 @@
 
-#hi this is simple pong game which can be played by two people  
+#hi this is simple pong game which can be played by two people
+#this game has two paddings 
+#LEFT PADDING can be moved by UP and DOWN arrow keys
+#RIGHT PADDING can be moved by "W" and "S" keys
+#first player to reach 30 points wins the game
 
 from turtle import*
 from random import*
@@ -71,6 +75,7 @@ wn.onkeypress(padding_b_up,"w")
 wn.onkeypress(padding_b_down,"s")
 wn.onkeypress(padding_a_up,"Up")
 wn.onkeypress(padding_a_down,"Down")
+
 while True:
     wn.update()
 
