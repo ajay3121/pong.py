@@ -1,3 +1,6 @@
+
+#hi this is simple pong game which can be played by two people  
+
 from turtle import*
 from random import*
 wn = Screen()
